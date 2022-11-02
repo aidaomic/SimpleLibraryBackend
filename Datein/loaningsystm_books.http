@@ -1,0 +1,5 @@
+GET http://localhost:8095/loanservice/books
+###
+GET http://localhost:8095/loanservice/books/1
+###
+GET http://localhost:8095/loanservice/books/299

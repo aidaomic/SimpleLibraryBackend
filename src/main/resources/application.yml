@@ -1,0 +1,19 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: bookloaningservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/12factorapp_test
+#    url: jdbc:mysql://localhost:3306/12factorapp_prod
+    username: root
+    password: if20b204
+#  jpa:
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create-drop
+#      naming:
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    show-sql: true

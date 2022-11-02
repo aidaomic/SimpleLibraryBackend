@@ -1,0 +1,62 @@
+POST http://localhost:8095/admin
+Content-Type: application/json
+
+{
+	"idbook" : 0,
+	"title" : "SWE",
+	"author" : "J. R.",
+	"description" : "Lorem Ipsum",
+	"pagecount" : 190
+}
+###
+POST http://localhost:8095/admin
+Content-Type: application/json
+
+{
+  "idbook": 1,
+  "title": "new book",
+  "author": "T. Est",
+  "description": "",
+  "pagecount": 438
+}
+###
+POST http://localhost:8095/admin
+Content-Type: application/json
+
+{
+  "idbook": 2,
+  "title": "New Art",
+  "author": "Charlie Shuh",
+  "description": "Lorem Ipsum",
+  "pagecount": 250
+}
+###
+POST http://localhost:8095/admin
+Content-Type: application/json
+
+{
+	"idbook" : 0,
+	"title" : "SWE 2",
+	"author" : "J. R.",
+	"description" : "Lorem Ipsum, Lorem Ipsum",
+	"pagecount" : 499
+}
+###
+PUT http://localhost:8095/admin/1
+Content-Type: application/json
+
+{
+  "idbook" : 0,
+  "title" : "SWE 3",
+  "author" : "J. R.",
+  "description" : "Lorem Ipsum",
+  "pagecount" : 190
+}
+###
+GET http://localhost:8095/admin/1
+###
+GET http://localhost:8095/admin/2
+###
+GET http://localhost:8095/admin/29
+###
+DELETE http://localhost:8095/admin/2

@@ -1,0 +1,49 @@
+POST http://localhost:8095/loanservice/history
+Content-Type: application/json
+
+{
+  "idloanhistory": 0,
+  "book": {
+    "idbook": 2,
+    "title": "New Art",
+    "author": "Charlie Shuh",
+    "description": "Lorem Ipsum",
+    "pagecount": 250
+  }
+}
+###
+POST http://localhost:8095/loanservice/history
+Content-Type: application/json
+
+{
+  "idloanhistory": 0,
+  "book": {
+    "idbook": 1,
+    "title": "new book",
+    "author": "T. Est",
+    "description": "",
+    "pagecount": 438
+  }
+}
+###
+POST http://localhost:8095/loanservice/history
+Content-Type: application/json
+
+{
+  "idloanhistory": 0,
+  "book": {
+    "idbook": 0,
+    "title": "SWE 2",
+    "author": "J. R.",
+    "description": "Lorem Ipsum, Lorem Ipsum",
+    "pagecount": 499
+  }
+}
+###
+GET http://localhost:8095/loanservice/history
+###
+GET http://localhost:8095/loanservice/history/1
+###
+GET http://localhost:8095/loanservice/history/81
+###
+DELETE http://localhost:8095/loanservice/history/2
